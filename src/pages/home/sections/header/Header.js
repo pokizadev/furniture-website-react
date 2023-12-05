@@ -3,10 +3,10 @@ import logo from "../../../../assets/Whiter..png";
 import mobileNav from "../../../../assets/menu 1.svg";
 
 const links = [
-    { text: "Products", links: "http://google.com" },
-    { text: "Rooms", links: "http://google.com" },
-    { text: "Inspirations", links: "http://google.com" },
-    { text: "Support", links: "http://google.com" }
+    { text: "Products", link: "http://google.com" },
+    { text: "Rooms", link: "http://google.com" },
+    { text: "Inspirations", link: "http://google.com" },
+    { text: "Support", link: "http://google.com" }
 ];
 
 const Header = () => {
