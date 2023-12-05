@@ -112,3 +112,12 @@ a {
   padding-right: 6.1rem;
   font-size: 0;
 }
+
+.orange-line {
+  width: 4rem;
+  height: 0.4rem;
+  margin-right: 2rem;
+  background-color: var(--orange-color);
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
