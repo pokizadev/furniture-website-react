@@ -1,0 +1,60 @@
+/* Features Section */
+
+.features-section__content {
+    padding: 0 9.1rem;
+    margin-bottom: 10rem;
+}
+
+.feature:not(:last-child) {
+    margin-right: 10rem;
+}
+
+.feature {
+    width: calc((100% - 20rem) / 3);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature-icon,
+.feature-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature-icon {
+    width: calc((100% - 4.2rem) * 0.3);
+    margin-right: 4.2rem;
+}
+
+.feature-text {
+    width: calc((100% - 4.2rem) * 0.7);
+}
+
+.feature-text h5 {
+    margin-bottom: 1rem;
+}
+.ellipse {
+    position: relative;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+
+.ellipse.shape-1 {
+    background-color: var(--green-color-25);
+}
+
+.ellipse.shape-2 {
+    background-color: var(--beige-color);
+}
+
+.ellipse.shape-3 {
+    background-color: var(--blue-color-25);
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
