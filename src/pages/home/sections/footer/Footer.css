@@ -1,0 +1,45 @@
+/* Footer Section */
+
+.footer__content {
+    background-color: var(--beige-color);
+    border-radius: 3rem;
+    padding: 14rem 9.1rem;
+    margin-bottom: 10rem;
+}
+
+.footer__content > *:not(:last-child) {
+    margin-right: 2.6rem;
+}
+
+.footer-column {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer__content > *:not(:first-child) {
+    width: calc(((100% - 7.8rem) * 0.7) / 3);
+}
+
+.footer__brand {
+    width: calc((100% - 7.8rem) * 0.3);
+}
+
+.footer__brand img {
+    height: 2.8rem;
+    width: auto;
+}
+
+.footer__brand img,
+.footer__heading {
+    margin-bottom: 6.5rem;
+}
+
+.footer__brand img + p {
+    margin-bottom: 3.4rem;
+}
+
+.footer__content a,
+p {
+    display: block;
+    margin-bottom: 2rem;
+}
