@@ -6,6 +6,7 @@ import { Process } from "./sections/process/Process";
 import { About } from "./sections/about/About";
 import { Testimonials } from "./sections/testimonials/Testimonials";
 import { Subscribe } from "./sections/subscribe/Subscribe";
+import { Footer } from "./sections/footer/Footer";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <About />
             <Testimonials/>
             <Subscribe/>
+            <Footer/>
         </>
     );
 };
