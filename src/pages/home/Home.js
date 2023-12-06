@@ -4,6 +4,7 @@ import { Features } from "./sections/features/Features";
 import { Designs } from "./sections/designs/Designs";
 import { Process } from "./sections/process/Process";
 import { About } from "./sections/about/About";
+import { Testimonials } from "./sections/testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Designs />
             <Process />
             <About />
+            <Testimonials/>
         </>
     );
 };
