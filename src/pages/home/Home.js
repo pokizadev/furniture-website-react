@@ -5,6 +5,7 @@ import { Designs } from "./sections/designs/Designs";
 import { Process } from "./sections/process/Process";
 import { About } from "./sections/about/About";
 import { Testimonials } from "./sections/testimonials/Testimonials";
+import { Subscribe } from "./sections/subscribe/Subscribe";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Process />
             <About />
             <Testimonials/>
+            <Subscribe/>
         </>
     );
 };
