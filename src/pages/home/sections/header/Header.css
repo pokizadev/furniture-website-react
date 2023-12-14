@@ -6,7 +6,7 @@
 .logo {
     vertical-align: middle;
     display: inline-block;
-    
+
     width: 8rem;
 }
 
@@ -47,30 +47,53 @@
     vertical-align: top;
 }
 
-#mobile-nav-icon {
+/* #mobile-nav-icon {
     display: none;
+} */
+
+.navigation {
+    display: none;
+}
+
+#mobile-nav-icon {
+    display: inline-block;
+    position: absolute;
+    right: 9rem;
 }
 
 .close-icon {
     font-size: 6rem;
     color: #1d263a;
     position: absolute;
-    right: 3rem;
-    top: 2.9rem;
+    left: auto;
+    top: 4rem;
 }
 
 .mobile-nav {
     background-color: rgb(251, 245, 245);
-    height: 108vw;
-    width: 108vw;
+    height: 100vw;
+    width: 100vw;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
-
-    display: none;
+    padding-left: 20rem;
+    padding-top: 20rem;
+    /* display: none; */
 }
 
-.show-menu {
+.mobile-nav_link {
+    color: var(--text-color);
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.mobile-nav_link li{
+    margin-bottom: 5rem;
+}
+/* .showMenu {
     display: inline-block;
-}
+    background-color: aliceblue;
+} */
