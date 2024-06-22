@@ -5,6 +5,10 @@
     border-radius: 3rem;
     margin-bottom: 10rem;
     padding: 7.6rem 9.1rem;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 4rem;
+    }
 }
 
 .hero-section__left {
@@ -12,6 +16,17 @@
     vertical-align: top;
     width: 43%;
     position: relative;
+
+    @media (max-width: 1300px) {
+        width: 48%;
+    }
+
+    @media (max-width: 800px) {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
 }
 
 .chair {
@@ -20,6 +35,22 @@
     vertical-align: top;
     position: relative;
     z-index: 1;
+
+    @media (max-width: 1100px) {
+        width: 36rem;
+        height: 46rem;
+        margin-right: 3.2rem;
+    }
+
+    @media (max-width: 850px) {
+        width: 35rem;
+        height: 40rem;
+    }
+
+    @media (max-width: 800px) {
+        width: 44rem;
+        height: 54rem;
+    }
 }
 
 .circle {
@@ -28,6 +59,29 @@
     position: absolute;
     top: 7rem;
     right: 0;
+
+    @media (max-width: 1100px) {
+        width: 24rem;
+        height: 24rem;
+        top: 7rem;
+    }
+
+    @media (max-width: 850px) {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    @media (max-width: 800px) {
+        width: 34rem;
+        height: 34rem;
+        top: 8rem;
+        right: 7%;
+    }
+
+    @media (max-width: 600px) {
+        width: 32rem;
+        height: 32rem;
+    }
 }
 
 .hero-section__right {
@@ -35,6 +89,21 @@
     vertical-align: middle;
     width: 57%;
     padding: 4.2rem;
+
+    @media (max-width: 1300px) {
+        width: 52%;
+    }
+
+    @media (max-width: 900px) {
+        padding: 2rem 4rem;
+    }
+
+    @media (max-width: 800px) {
+        display: block;
+        width: 100%;
+        text-align: justify;
+        padding: 2rem;
+    }
 }
 
 .uppercase-text-2.text-top {
@@ -44,9 +113,32 @@
 .hero-section__right h1 {
     margin-top: 3.4rem;
     margin-bottom: 2.8rem;
+
+    @media (max-width: 1200px) {
+        font-size: 4rem;
+        line-height: 4.4rem;
+    }
+
+    @media (max-width: 850px) {
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 6rem;
+        line-height: 6.4rem;
+        letter-spacing: 0.1rem;
+    }
 }
 
 .hero-section__right p {
     margin-bottom: 5.8rem;
-}
 
+    @media (max-width: 850px) {
+        margin-bottom: 3.4rem;
+    }
+
+    @media (max-width: 800px) {
+        margin-bottom: 5.8rem;
+    }
+}
