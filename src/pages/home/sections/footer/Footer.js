@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="footer__brand footer-column">
                         <img src={logo} alt="Logo"/>
                         <p className="text-lg">
-                            We make furniture with love and passions. No doubt,
+                            We make furniture with love and passions. <br/> No doubt,
                             really.
                         </p>
                         <p className="text-lg">© TuranTech Inc.</p>

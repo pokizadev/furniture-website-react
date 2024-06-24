@@ -107,8 +107,14 @@
     }
 }
 
+.about-span__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .about-span {
     @media (max-width: 800px) {
         text-align: start;
     }
 }
+
