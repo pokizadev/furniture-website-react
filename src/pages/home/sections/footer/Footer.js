@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../../../assets/Whiter..png";
+import logo from "../../../../assets/comfylogo2.png";
 import { footerColumns } from "./data";
 
 const Footer = () => {

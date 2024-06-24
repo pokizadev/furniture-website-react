@@ -2,17 +2,25 @@
 
 #header {
     padding: 4.1rem 9.1rem;
+
+    @media (max-width: 1200px) {
+        padding: 5rem;
+    }
+
+    @media (max-width: 800px) {
+        padding: 3rem;
+    }
 }
 .logo {
-    vertical-align: middle;
+    vertical-align: bottom;
     display: inline-block;
 
-    width: 8rem;
+    width: 12rem;
 }
 
 .navigation {
     display: inline-block;
-    width: calc(100% - 8rem);
+    width: calc(100% - 12rem);
 
     @media (max-width: 800px) {
         display: none;
