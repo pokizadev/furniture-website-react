@@ -16,7 +16,6 @@
     @media (max-width: 800px) {
         padding: 3rem;
     }
-
 }
 
 .feature:not(:last-child) {
@@ -44,10 +43,16 @@
     }
 }
 
-.feature-icon,
-.feature-text {
+.feature-icon {
     display: inline-block;
     vertical-align: middle;
+    width: calc((100% - 4.2rem) * 0.3);
+    margin-right: 4.2rem;
+
+    @media (max-width: 800px) {
+        width: 20%;
+        margin-right: 0;
+    }
 
     @media (max-width: 600px) {
         display: block;
@@ -57,21 +62,23 @@
     }
 }
 
-.feature-icon {
-    width: calc((100% - 4.2rem) * 0.3);
-    margin-right: 4.2rem;
-
-    @media (max-width: 800px) {
-        width: 20%;
-        margin-right: 0;
-    }
-}
-
 .feature-text {
+    display: inline-block;
+    vertical-align: middle;
     width: calc((100% - 4.2rem) * 0.7);
 
     @media (max-width: 800px) {
         width: 80%;
+    }
+
+    display: inline-block;
+    vertical-align: middle;
+
+    @media (max-width: 600px) {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 4rem;
     }
 }
 

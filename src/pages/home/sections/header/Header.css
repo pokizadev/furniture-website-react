@@ -83,13 +83,13 @@
 
 .mobile-nav {
     background-color: rgb(251, 245, 245);
-    height: 100vw;
+    height: 150vw;
     width: 100vw;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 10;
-    padding-left: 20rem;
+    padding-left: 8rem;
     padding-top: 20rem;
     /* display: none; */
 }
