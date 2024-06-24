@@ -24,11 +24,11 @@ const Hero = () => {
                             QUALITY DESIGN FOR ALL
                         </span>
                         <h1 className="heading-1">
-                            Bring back the classic look by using Whiter. Easy
+                            Bring back the classic look by using Comfy Furniture. Easy
                             home delivery!
                         </h1>
                         <p className="text-md">
-                            Rediscover the timeless allure of the past as Whiter <br/>
+                            Rediscover the timeless allure of the past as Comfy Furniture<br/>
                             effortlessly revives the beloved vintage aesthetic.
                         </p>
                         <div className="orange-line"></div>
