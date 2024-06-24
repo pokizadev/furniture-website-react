@@ -32,7 +32,7 @@ const About = () => {
                                 moments, surrounded by unmatched tranquility and
                                 exquisite relaxation.
                             </p>
-                            <div className="hero-span__wrapper">
+                            <div className="about-span__wrapper">
                                 <div className="orange-line"></div>
                                 <span className="uppercase-text-2 about-span">
                                     EXPLORE OUR PRODUCTS
