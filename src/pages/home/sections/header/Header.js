@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "../../../../assets/Whiter..png";
+import logo from "../../../../assets/comfylogo2.png";
 import mobileNav from "../../../../assets/menu 1.svg";
 import React from "react";
 
