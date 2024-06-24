@@ -7,8 +7,13 @@
 .about-section__content {
     padding: 16rem 9.1rem;
 
+    @media (max-width: 1200px) {
+        padding: 5rem;
+       padding-bottom: 12rem;
+    }
+
     @media (max-width: 800px) {
-        padding-bottom: 5rem;
+        padding: 3rem;
     }
 }
 

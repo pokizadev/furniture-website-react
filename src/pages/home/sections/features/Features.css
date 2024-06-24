@@ -8,13 +8,15 @@
         margin-bottom: 5rem;
     }
 
-    @media (max-widht: 1200px) {
+    @media (max-width: 1200px) {
+        padding: 5rem;
         margin-bottom: 3rem;
     }
 
-    @media (max-widht: 1100px) {
-        margin-bottom: 0;
+    @media (max-width: 800px) {
+        padding: 3rem;
     }
+
 }
 
 .feature:not(:last-child) {

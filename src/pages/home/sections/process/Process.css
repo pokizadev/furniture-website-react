@@ -4,8 +4,16 @@
     padding: 0 9.1rem;
     margin-bottom: 10rem;
 
+    @media (max-width: 1200px) {
+        padding: 5rem;
+    }
+
     @media (max-width: 1100px) {
         margin-bottom: 0;
+    }
+    
+    @media (max-width: 800px) {
+        padding: 3rem;
     }
 }
 

@@ -185,22 +185,6 @@ a {
     }
 }
 
-#header,
-.hero-section__content,
-.features-section__content,
-.designs-section__content,
-.process-section__content,
-.about-section__content,
-.footer__content {
-    @media (max-width: 1200px) {
-        padding: 5rem;
-    }
-
-    @media (max-width: 800px) {
-        padding: 3rem;
-    }
-}
-
 .hero-section__content,
 .designs-section__content,
 #process-section .uppercase-text-1,
