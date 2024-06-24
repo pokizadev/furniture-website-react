@@ -1,6 +1,6 @@
 import "./About.css";
 import enjoying from "../../../../assets/wife-husband.jpeg";
-import greenShape from "../../../../assets/shape-2.svg"
+import greenShape from "../../../../assets/shape-2.svg";
 
 const About = () => {
     return (
@@ -32,10 +32,12 @@ const About = () => {
                                 moments, surrounded by unmatched tranquility and
                                 exquisite relaxation.
                             </p>
-                            <div className="orange-line"></div>
-                            <span className="uppercase-text-2">
-                                EXPLORE OUR PRODUCTS
-                            </span>
+                            <div className="hero-span__wrapper">
+                                <div className="orange-line"></div>
+                                <span className="uppercase-text-2 about-span">
+                                    EXPLORE OUR PRODUCTS
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -43,4 +45,4 @@ const About = () => {
         </section>
     );
 };
-export { About}
+export { About };

@@ -4,10 +4,10 @@ import mobileNav from "../../../../assets/menu 1.svg";
 import React from "react";
 
 const links = [
-    { text: "Products", link: "http://google.com" },
-    { text: "Rooms", link: "http://google.com" },
-    { text: "Inspirations", link: "http://google.com" },
-    { text: "Support", link: "http://google.com" }
+    { text: "Products", link: "/" },
+    { text: "Rooms", link: "/" },
+    { text: "Inspirations", link: "/" },
+    { text: "Support", link: "/" }
 ];
 
 // const Header = () => {

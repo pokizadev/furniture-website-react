@@ -1,17 +1,13 @@
 import "./Hero.css";
-import chair from "../../../../assets/hero.png"
-import circle from "../../../../assets/shape-1.png"
+import chair from "../../../../assets/hero.png";
+import circle from "../../../../assets/shape-1.png";
 const Hero = () => {
     return (
         <section id="hero-section">
             <div className="container">
                 <div className="hero-section__content">
                     <div className="hero-section__left">
-                        <img
-                            className="chair"
-                            src={chair}
-                            alt="Chair"
-                        />
+                        <img className="chair" src={chair} alt="Chair" />
                         <img
                             className="circle"
                             src={circle}
@@ -24,17 +20,21 @@ const Hero = () => {
                             QUALITY DESIGN FOR ALL
                         </span>
                         <h1 className="heading-1">
-                            Bring back the classic look by using Comfy Furniture. Easy
-                            home delivery!
+                            Bring back the classic look by using Comfy
+                            Furniture. Easy home delivery!
                         </h1>
                         <p className="text-md">
-                            Rediscover the timeless allure of the past as Comfy Furniture<br/>
+                            Rediscover the timeless allure of the past as Comfy
+                            Furniture
+                            <br />
                             effortlessly revives the beloved vintage aesthetic.
                         </p>
-                        <div className="orange-line"></div>
-                        <span className="uppercase-text-2">
-                            EXPLORE OUR PRODUCTS
-                        </span>
+                        <div className="hero-span__wrapper">
+                            <div className="orange-line"></div>
+                            <span className="uppercase-text-2 hero-span">
+                                EXPLORE OUR PRODUCTS
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,4 +42,4 @@ const Hero = () => {
     );
 };
 
-export {Hero}
+export { Hero };
