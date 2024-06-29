@@ -65,6 +65,10 @@
 
 #designs-section .design-card:not(:last-child) {
     margin-right: 2rem;
+
+    @media (max-width: 800px) {
+        display: none;
+    }
 }
 
 .design-img {
@@ -136,12 +140,5 @@
 .couch {
     @media (max-width: 800px) {
         height: 85rem;
-    }
-}
-
-.chair-light,
-.chair-dark {
-    @media (max-width: 800px) {
-        display: none;
     }
 }

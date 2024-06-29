@@ -184,7 +184,7 @@ a {
         padding-right: 4rem;
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         padding-left: 1rem;
         padding-right: 1rem;
     }

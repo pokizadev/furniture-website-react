@@ -24,6 +24,10 @@
     @media (max-width: 1100px) {
         margin-right: 3.2rem;
     }
+
+    /* @media (max-width: 800px) {
+        margin-right: 0;
+    } */
 }
 
 .feature {
@@ -36,10 +40,11 @@
     }
 
     @media (max-width: 800px) {
-        width: 100%;
         display: block;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 5rem;
+        text-align: center;
     }
 }
 
@@ -49,17 +54,20 @@
     width: calc((100% - 4.2rem) * 0.3);
     margin-right: 4.2rem;
 
-    @media (max-width: 800px) {
+    /* @media (max-width: 800px) {
         width: 20%;
         margin-right: 0;
+    } */
+
+
+    @media (max-width: 800px) {
+        display: block;
+        /* width: 100%; */
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        text-align: center;
     }
 
-    @media (max-width: 600px) {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 4rem;
-    }
 }
 
 .feature-text {
@@ -67,19 +75,10 @@
     vertical-align: middle;
     width: calc((100% - 4.2rem) * 0.7);
 
-    @media (max-width: 800px) {
+    /* @media (max-width: 800px) {
         width: 80%;
-    }
+    } */
 
-    display: inline-block;
-    vertical-align: middle;
-
-    @media (max-width: 600px) {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 4rem;
-    }
 }
 
 .feature-text h5 {
@@ -95,6 +94,13 @@
     border-radius: 50%;
     height: 8rem;
     width: 8rem;
+
+
+    @media (max-width: 800px) {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .ellipse.shape-1 {
